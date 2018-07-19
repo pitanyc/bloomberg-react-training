@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "John Andrews",
+    "address": {
+        "line1": "6 Highcross Road",
+        "town": "Upper Norton",
+        "county": "Northshire",
+        "country": "England"
+    },
+    "email": "john@example.com"
+  },
+  {
+    "id": 2,
+    "name": "Peter Munro",
+    "address": {
+        "line1": "16 The Harbor",
+        "town": "Newport",
+        "county": "Gwent",
+        "country": "Wales"
+    },
+    "email": "peter@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Dave Mallon",
+    "address": {
+        "line1": "5 The Villas",
+        "town": "Stourbridge",
+        "county": "Devon",
+        "country": "England"
+    },
+    "email": "dave@example.com"
+  }
+]
