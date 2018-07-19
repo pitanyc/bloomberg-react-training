@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.Header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.cell-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.cell {
+  background-color: burlywood;
+  margin: 2px;
+  color: brown;
+}
+
+button {
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 2px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.add {
+  background-color: darkcyan;
+}
+
+.delete {
+  background-color: chocolate;
+}
+
+.set-height {
+  width: 5em;
+  background-color: blue;
+}

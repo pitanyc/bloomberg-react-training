@@ -1,0 +1,19 @@
+{
+  "name": "pm-redux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Peter Munro <peter@petermunro.org>",
+  "license": "MIT",
+  "dependencies": {
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel src -d dist --presets es2015,stage-2",
+    "start": "babel-node src/index.js --presets es2015,stage-2"
+  }
+}
